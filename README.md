@@ -34,15 +34,17 @@ Projekt wykonany w **STM32CubeIDE**, w celach edukacyjnych i prezentacji umieję
 
 ## 📁 Struktura katalogów
 
-Arcanoid---full-project/
-├── Core/
-│ ├── Inc/ # Pliki nagłówkowe 
-│ ├── Src/ # Główna logika i obsługa gry
-├── Drivers/ # HAL i CMSIS
-├── STM32F303RETX_FLASH.ld
-├── Arcanoid.ioc # Plik projektu CubeMX
-├── .gitignore
-└── README.md
+- Arcanoid---full-project/
+- Core/
+- Inc/ # Pliki nagłówkowe 
+- Src/ # Główna logika i obsługa gry
+- Drivers/ # HAL i CMSIS
+- STM32F303RETX_FLASH.ld
+- Arcanoid.ioc # Plik projektu CubeMX
+- .gitignore
+- README.md
+
+## Author
 
 Projekt stworzony przez papaj-23 jako część praktycznej nauki systemów embedded i STM32.
 
@@ -81,14 +83,16 @@ The project was developed in **STM32CubeIDE** for educational purposes and as a 
 
 ## 📁 Project Structure
 
-Arcanoid---full-project/
-├── Core/
-│ ├── Inc/ # Header files
-│ ├── Src/ # Game logic and runtime code
-├── Drivers/ # HAL and CMSIS libraries
-├── STM32F303RETX_FLASH.ld
-├── Arcanoid.ioc # STM32CubeMX project file
-├── .gitignore
-└── README.md
+- Arcanoid---full-project/
+- Core/
+- Inc/ # Header files
+- Src/ # Main logic
+- Drivers/ # HAL & CMSIS
+- STM32F303RETX_FLASH.ld
+- Arcanoid.ioc # CubeMX project file
+- .gitignore
+- README.md
+
+## Author
 
 Project created by **papaj-23** as part of practical learning in embedded systems and STM32 development.
