@@ -1,0 +1,29 @@
+# Pliki kompilacji
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.mk
+*.list
+*.cyclo
+*.su
+*.cproject
+*.mxproject
+
+# Foldery builda/debugowania
+Debug/
+.settings/
+
+# IDE i konfiguracje środowisk
+*.launch
+*.log
+*.swo
+*.svd
+*.swp
+*.user
+
+# Systemowe
+.DS_Store
+Thumbs.db
