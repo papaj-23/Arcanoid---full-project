@@ -390,11 +390,11 @@ static void BallReflection() {
 	}
 
 	if(right_rotation > 0 && left_rotation == 0) {
-		ball.direction = (ball.direction + 3) % 4;	//+90 degrees in carthesian coordinate system
+		ball.direction = (ball.direction + 3) % 4;	//+90 degrees in polar coordinate system
 		game_info.block_reflection = true;
 	}
 	else if(left_rotation > 0 && right_rotation == 0) {
-		ball.direction = (ball.direction + 1) % 4;	//-90 degrees in carthesian coordinate system
+		ball.direction = (ball.direction + 1) % 4;	//-90 degrees in polar coordinate system
 		game_info.block_reflection = true;
 	}
 	else if((reverse && right_rotation + left_rotation == 0) || (right_rotation > 0 && left_rotation > 0)) {
